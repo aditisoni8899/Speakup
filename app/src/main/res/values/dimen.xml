@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_22dp">22dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_0dp">0dp</dimen>
+    <dimen name="margin_17dp">17dp</dimen>
+    <dimen name="font_22sp">22sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="margin_124dp">124dp</dimen>
+    <dimen name="image_width_280dp">280dp</dimen>
+    <dimen name="margin_27dp">27dp</dimen>
+    <dimen name="image_width_200dp">200dp</dimen>
+    <dimen name="text_width_287dp">287dp</dimen>
+    <dimen name="margin_200dp">200dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+</resources>
