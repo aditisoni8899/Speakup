@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/dashboardColor"
     tools:context="com.android.speakup.DashboardActivity">
 
     <include
@@ -14,10 +15,11 @@
 
     <GridView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/gv_dashboard_gridview"
-        android:layout_width="379dp"
-        android:layout_height="487dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:columnWidth="150dp"
         android:gravity="center"
         android:horizontalSpacing="10dp"

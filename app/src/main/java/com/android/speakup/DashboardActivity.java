@@ -37,12 +37,13 @@ public class DashboardActivity extends AppCompatActivity {
         dashbaordResultList = new ArrayList<>();
         titleResultList = new ArrayList<>();
 
-        dashbaordResultList.add(R.drawable.ic_agenda);
-        dashbaordResultList.add(R.drawable.ic_information);
-        dashbaordResultList.add(R.drawable.ic_notification);
-        dashbaordResultList.add(R.drawable.ic_placeholder);
-        dashbaordResultList.add(R.drawable.ic_follower);
-        dashbaordResultList.add(R.drawable.ic_speaker);
+        dashbaordResultList.add(R.drawable.agenda);
+        dashbaordResultList.add(R.drawable.search);
+        dashbaordResultList.add(R.drawable.notification);
+        dashbaordResultList.add(R.drawable.location);
+        dashbaordResultList.add(R.drawable.follower);
+        dashbaordResultList.add(R.drawable.about);
+        dashbaordResultList.add(R.drawable.settings);
 
         titleResultList.add("Agenda");
         titleResultList.add("Information");
@@ -50,6 +51,7 @@ public class DashboardActivity extends AppCompatActivity {
         titleResultList.add("Placeholder");
         titleResultList.add("Follower");
         titleResultList.add("Speaker");
+        titleResultList.add("Settings");
 
         imageAdapter = new ImageAdapter(this ,R.layout.list_item, dashbaordResultList,titleResultList);
         gridView.setAdapter(imageAdapter);

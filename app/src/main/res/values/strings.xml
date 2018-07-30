@@ -8,4 +8,23 @@
     <string name="register_new_user">Register/New User</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="signin">Signin</string>
+    <string name="dashboard">dashboard</string>
+    <string name="dashboard_title">title</string>
+    <string name="wiliam_snoe">Wiliam Snoe</string>
+    <string name="android_developer">Android developer</string>
+    <string name="peru">Peru</string>
+    <string name="website_text">www.speakup.com</string>
+    <string name="about_me">About Me</string>
+    <string name="about_me_text">Lorem ipsum dolor sit amet, ei per eirmod aliquam scriptorem, quaestio perpetua his in, sed ea suas aliquam adolescens. Tale putent at nec, his graecis eleifend ex. Eu eam eligendi repudiare, mutat sensibus mnesarchum per te. Quo altera semper aliquando ea.</string>
+    <string name="profileimage">profileimage</string>
+    <string name="events">Events</string>
+    <string name="number_events">360</string>
+    <string name="rate">Rate</string>
+    <string name="rate_val">9.5</string>
+    <string name="followers">Followers</string>
+    <string name="followers_val">1205</string>
+    <string name="speakup">speakup</string>
+    <string name="twiiter_image">twiiter_image</string>
+    <string name="map_image">map_image</string>
+    <string name="link_map">link_map</string>
 </resources>

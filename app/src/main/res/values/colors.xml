@@ -6,4 +6,5 @@
     <color name="textColor">#EFEFEF</color>
     <color name="labelColor">#3da2dd</color>
     <color name="viewcolor">#909090</color>
+    <color name="dashboardColor">#f5f0ec</color>
 </resources>

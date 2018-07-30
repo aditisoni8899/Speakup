@@ -17,4 +17,20 @@
     <dimen name="text_width_287dp">287dp</dimen>
     <dimen name="margin_200dp">200dp</dimen>
     <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="dashboard_image_width">60dp</dimen>
+    <dimen name="dashboard_image_height">60dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="width_380dp">380dp</dimen>
+    <dimen name="width_150dp">150dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="height_150dp">150dp</dimen>
+    <dimen name="margin__30dp">30dp</dimen>
+    <dimen name="font_24sp">24sp</dimen>
+    <dimen name="width_400dp">400dp</dimen>
+    <dimen name="width_180dp">180dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
 </resources>

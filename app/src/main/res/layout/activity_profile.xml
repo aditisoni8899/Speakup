@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewcolor"
+    android:orientation="vertical"
+    tools:context="com.android.speakup.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/width_380dp"
+            android:background="@drawable/gradientbackground"
+            android:orientation="vertical">
+
+            <!-- ToolBar -->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/speakup_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+                <TextView
+                    android:id="@+id/tv_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_18sp"
+                    />
+
+            </android.support.v7.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="@dimen/width_150dp"
+                android:layout_height="@dimen/height_150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin__30dp"
+                android:contentDescription="@string/profileimage"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:text="@string/wiliam_snoe"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:text="@string/android_developer"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_18sp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="320dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/events"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_event_val"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/number_events"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rate"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_rate_val"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/rate_val"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_followers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/followers"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_followers_val"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/followers_val"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="@dimen/width_400dp"
+            android:layout_height="@dimen/width_180dp"
+            android:layout_below="@+id/cardView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding_10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_10dp"
+                    android:baselineAligned="false"
+                    android:weightSum="3">
+
+
+                    <ImageView
+                        android:id="@+id/iv_map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/map_image"
+                        android:src="@drawable/map" />
+
+                    <TextView
+                        android:id="@+id/tv_map_val"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:paddingLeft="@dimen/padding_20dp"
+                        android:paddingRight="@dimen/padding_20dp"
+                        android:paddingStart="@dimen/padding_20dp"
+                        android:text="@string/peru"
+                        android:textSize="@dimen/font_20sp" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_10dp"
+                    android:weightSum="3">
+
+
+                    <ImageView
+                        android:id="@+id/iv_twitter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/twiiter_image"
+                        android:src="@drawable/twitter" />
+
+                    <TextView
+                        android:id="@+id/tv_twitter_val"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:paddingLeft="@dimen/padding_20dp"
+                        android:paddingRight="@dimen/padding_20dp"
+                        android:paddingStart="@dimen/padding_20dp"
+                        android:text="@string/speakup"
+                        android:textSize="@dimen/font_20sp" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_10dp"
+                    android:weightSum="3">
+
+
+                    <ImageView
+                        android:id="@+id/iv_link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/link_map"
+                        android:src="@drawable/link" />
+
+                    <TextView
+                        android:id="@+id/iv_link_val"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:paddingLeft="@dimen/padding_20dp"
+                        android:paddingRight="@dimen/padding_20dp"
+                        android:paddingStart="@dimen/padding_20dp"
+                        android:text="@string/website_text"
+                        android:textSize="@dimen/font_20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="@dimen/width_400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <TextView
+                    android:id="@+id/tv_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_5dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/about_me"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_about_val"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/padding_5dp"
+                    android:text="@string/about_me_text"
+                    android:textSize="@dimen/font_20sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

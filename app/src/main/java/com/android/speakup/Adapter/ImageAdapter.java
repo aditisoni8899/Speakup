@@ -19,7 +19,10 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.android.speakup.MainActivity;
+import com.android.speakup.ProfileActivity;
 import com.android.speakup.R;
+import com.android.speakup.SigninActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -62,6 +65,15 @@ public class ImageAdapter extends ArrayAdapter<Integer> {
                 .placeholder(R.drawable.ic_launcher_background)
                 .into(posterImage);
         tv_title.setText(tResultList.get(position));
+
+        posterImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, ProfileActivity.class);
+                mContext.startActivity(intent);
+            }
+        });
+
     return view;
     }
 }
